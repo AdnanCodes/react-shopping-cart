@@ -10,6 +10,7 @@ import Navigation from "./components/Navigation";
 import Products from "./components/Products";
 import ShoppingCart from "./components/ShoppingCart";
 import { CartContext } from "./contexts/CartContext";
+import useLocalStorage from "./hooks/useLocalStorage";
 
 function App() {
   //States that needed to be added to Context API
